@@ -20,7 +20,7 @@ const SignUp = () => {
       
     }}
     className="flex h-[90vh] justify-center items-center ">
-        <div className=" bg-white w-[60vw] h-[80vh] rounded-md">
+        <div className=" bg-white w-[80vw] md:w-[60vw]  h-[80vh] rounded-md">
       <div className="grid md:grid-cols-2">
         <div className="hidden md:flex flex-col p-12">
           <img className="w-[100%] lg:w-[80%] h-auto" src={logo} alt="logoimg" />

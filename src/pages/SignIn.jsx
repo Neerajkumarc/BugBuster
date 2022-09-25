@@ -18,7 +18,7 @@ const SignIn = () => {
       
     }}
     className="flex h-[90vh] justify-center items-center ">
-        <div className=" bg-white w-[60vw] h-[70vh] rounded-md">
+        <div className=" bg-white w-[80vw] md:w-[60vw] h-[70vh] rounded-md">
       <div className="">
         <div className=" text-black flex flex-col justify-center items-center">
           <p className="text-[#00f] text-4xl mt-4 font-bold ">

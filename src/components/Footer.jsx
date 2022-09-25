@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="w-full h-[220px] bg-black flex flex-col justify-center relative items-center">
+    <div className="w-full h-[220px] bg-black flex flex-col justify-center items-center">
       <div className="max-w-[1240px] flex flex-col md:flex-row items-center mx-auto  justify-between ">
         <img className="h-[60px] w-auto block mx-6" src={logo} alt="logo" />
         <div className="flex  items-center flex-col">
@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="text-1xl flex gap-2 absolute bottom-0 p-2">
-        <FaCopyright className="mt-1" /> 2022 BugBuster
+        <FaCopyright className="mt-1" /> 2022 BugBusters
       </p>
     </div>
   );

@@ -1,5 +1,4 @@
 import React from "react";
-import { FaCopyright } from "react-icons/fa";
 import {
   AiOutlineInstagram,
   AiOutlineFacebook,
@@ -34,9 +33,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="text-1xl flex gap-2 absolute bottom-0 p-2">
-        <FaCopyright className="mt-1" /> 2022 BugBusters
-      </p>
     </div>
   );
 };

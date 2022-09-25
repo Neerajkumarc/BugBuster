@@ -20,7 +20,7 @@ const Contact = () => {
     }}
     viewport={{once:true}}  
     className="flex h-[90vh] justify-center items-center ">
-        <div className=" bg-white w-[80vw] md:w-[60vw]  h-[500px] rounded-md flex items-center justify-center">
+        <div className=" bg-white w-[80vw] md:w-[60vw]  h-[500px] overflow-hidden rounded-md flex items-center justify-center">
       <div className="grid md:grid-cols-2">
         <div className="hidden md:flex flex-col p-4 px-8 gap-20 text-black">
           <p className='text-4xl font-bold text-gradient'>Contact Us</p>
